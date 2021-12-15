@@ -23,6 +23,7 @@ class App extends Component {
     this.getCityWeather("Dubai")
     var elems = document.querySelectorAll(".modal")
     var instances = window.M.Modal.init(elems)
+    console.log(instances)
   }
 
   componentDidUpdate(prevProps, prevState) {
